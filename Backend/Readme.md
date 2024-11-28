@@ -66,6 +66,7 @@ Das Backend der Shopping-List-Anwendung stellt eine RESTful API bereit, um Einka
 
 2. Starten Sie den Server:
 
+```bash
 npm start
 
 ## Testen der API
@@ -86,9 +87,14 @@ Ein Testskript (testAll.js) befindet sich im Verzeichnis src/tests. Dieses Skrip
 
 1. Server starten: 
 
+```bash
 npm start
+```
 
 2. Testskript ausführen:
 
+```bash
 cd src/tests
 node testAll.js
+```
+

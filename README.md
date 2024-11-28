@@ -54,21 +54,22 @@ Falls Sie eine eigene MongoDB-Datenbank verwenden möchten:
 ## Setup-Anleitung
 
 ### 1. Navigieren Sie in das Backend-Verzeichnis:
-
+```bash
 cd Backend
 npm install
 npm start
+```
 - Das Backend wird auf folgendem Link verfügbar sein:
 
 http://localhost:4000/api
 
 
 ### 2. Navigieren Sie in das Frontend-Verzeichnis:
-
+   ```bash
 cd Frontend
 npm install
 npm run dev
-
+```
 - Öffnen Sie die Anwendung im Browser:
 
 http://localhost:5173
