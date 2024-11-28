@@ -61,13 +61,15 @@ Das Backend der Shopping-List-Anwendung stellt eine RESTful API bereit, um Einka
 ### Schritte
 
 1. Installieren Sie die Abhängigkeiten:
-   ```bash
+```bash
    npm install
+```
 
 2. Starten Sie den Server:
 
 ```bash
 npm start
+```
 
 ## Testen der API
 

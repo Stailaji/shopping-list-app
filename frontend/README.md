@@ -79,15 +79,15 @@ Das Projekt basiert auf **React** und verwendet **Chakra UI** für die Gestaltun
 ### Schritte
 
 1. Installieren Sie die Abhängigkeiten:
-   ```bash
+```bash
    npm install
    # oder
    yarn install
-   ```
-   
+```
+
 2. Starten Sie die Entwicklungsumgebung:
 
-   ```bash
+```bash
 npm start
 ```
 
