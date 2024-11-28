@@ -86,9 +86,10 @@ Das Projekt basiert auf **React** und verwendet **Chakra UI** für die Gestaltun
 
 2. Starten Sie die Entwicklungsumgebung:
 
+   ```bash
 npm start
-# oder
-yarn start
+```
+
 
 3. Öffnen Sie die Anwendung im Browser:
 
