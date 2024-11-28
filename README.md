@@ -5,9 +5,7 @@
 1. [Projektbeschreibung](#projektbeschreibung)
 2. [Voraussetzungen](#voraussetzungen)
 3. [Setup-Anleitung](#setup-anleitung)
-4. [Frontend starten](#frontend-starten)
-5. [Backend starten](#backend-starten)
-6. [Testen der Anwendung](#testen-der-anwendung)
+
 
 ---
 
