@@ -83,7 +83,8 @@ Das Projekt basiert auf **React** und verwendet **Chakra UI** für die Gestaltun
    npm install
    # oder
    yarn install
-
+   ```
+   
 2. Starten Sie die Entwicklungsumgebung:
 
    ```bash
