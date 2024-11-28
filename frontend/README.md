@@ -4,8 +4,7 @@
 1. [Projektbeschreibung](#projektbeschreibung)
 2. [Funktionalitäten](#funktionalitäten)
 3. [Setup-Anleitung](#setup-anleitung)
-4. [Struktur der Routen](#struktur-der-routen)
-5. [Testen der Anwendung](#testen-der-anwendung)
+
 
 ---
 
