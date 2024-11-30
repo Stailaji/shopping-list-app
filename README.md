@@ -64,7 +64,7 @@ http://localhost:4000/api
 
 ### 2. Navigieren Sie in das Frontend-Verzeichnis:
 ```bash
-cd Frontend
+cd frontend
 npm install
 npm run dev
 ```
