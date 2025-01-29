@@ -32,3 +32,5 @@ coverage/
 # Test-Ausgaben
 *.test.js
 *.test.ts
+
+.env

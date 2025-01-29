@@ -27,27 +27,22 @@ Die Anwendung besteht aus zwei Teilen:
 
 1. **Node.js** (Version 16.x oder höher)
 2. **npm** (im Lieferumfang von Node.js enthalten)
-3. **MongoDB Atlas** (Die Verbindung ist bereits in der `.env`-Datei definiert : 
-PORT=4000
-MONGO_URL=mongodb+srv://aialajimi:MyDatabase@cluster0.sfmyg.mongodb.net/node-typescript-app?retryWrites=true&w=majority
-)
+3. **MongoDB Atlas** 
 
-Die Anwendung ist so konfiguriert, dass sie automatisch die bereitgestellte MongoDB-Datenbank nutzt.
 
-- **Datenbank-Verbindung:** In der `.env`-Datei enthalten.
-- **Wichtige Anmerkung:** Diese Zugangsdaten sind ausschließlich für Testzwecke gedacht. Die Datenbank wird nach der Bewertung entfernt.
+## Datenbank einrichten
 
-Falls Sie eine eigene MongoDB-Datenbank verwenden möchten:
-1. Erstellen Sie eine neue Datenbank in MongoDB Atlas oder lokal.
-2. Aktualisieren Sie die `MONGO_URL` in der `.env`-Datei entsprechend.
-3. Starten Sie die Anwendung neu.
+Diese Anwendung enthält keine vordefinierte Datenbankverbindung. Daher muss eine eigene MongoDB-Datenbank erstellt und in einer `.env`-Datei konfiguriert werden.
 
----
+### 1. Eigene `.env`-Datei erstellen
 
-### Bereitgestellte Zugangsdaten:
-- URL: `mongodb+srv://aialajimi:MyDatabase@cluster0.sfmyg.mongodb.net/node-typescript-app?retryWrites=true&w=majority`
-- Sie können die bereitgestellte Datenbank für Ihre Tests verwenden.
----
+Da die `.env`-Datei aus Sicherheitsgründen nicht im Repository enthalten ist, muss sie manuell erstellt werden.
+
+1. Im `Backend`-Ordner eine Datei mit dem Namen `.env` erstellen.
+2. Folgenden Inhalt hinzufügen und die Platzhalter durch die eigenen Verbindungsdaten ersetzen:
+
+PORT=4000 
+MONGO_URL=
 
 ## Setup-Anleitung
 
